@@ -19,7 +19,5 @@ something about my improvements - survival - with learning code. <br>
 <br>
 <a href="index2_002.html">exercise2 </a>
 <br>
-<br>
-<br>
 
 
