@@ -1,4 +1,4 @@
-<link href="style.css" type="text/css"rel="stylesheet">
+
 
 
 
@@ -6,7 +6,7 @@
 
 
 # CORE INTERACTION @)@)
-
+<a href="homepage.html">homepage </a>
 
 
 
@@ -19,7 +19,7 @@ something about my improvements - survival - with learning code. <br>
 <br>
 <a href="index2_002.html">exercise2 </a>
 <br>
-<br>LAB
+<br>
 <br>
 <a href="homepage.html">homepage </a>
 
