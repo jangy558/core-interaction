@@ -1,0 +1,45 @@
+body{
+	border: 6px solid #6D8EE9;
+}
+
+
+.head
+{
+    color:#f308;
+    font-size:40px;
+    font-family:Gill Sans, sans-serif;
+    border:3px solid #FEEDCF;
+    width:500px;
+    margin: 240px auto;
+    background-color: #FEE7E7;
+    letter-spacing: 2px;
+    line-height: 0.5;
+    text-align: center
+
+
+}
+p{
+	text-align: : center;
+}
+h6{
+	font-size: 20px;
+	padding-left:300px;
+
+}
+body{
+	background-color: #E9E3F2;
+}
+
+.studio
+{
+	color:#6D8EE9;
+	text-align: left;
+}
+
+.lab
+{
+	color:#E96D6D;
+	text-align: right;
+	padding-right: 100px;
+
+}
