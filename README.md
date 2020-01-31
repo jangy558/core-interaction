@@ -6,7 +6,7 @@
 
 
 # CORE INTERACTION @)@)
-<a href="homepage.html">homepage </a>
+<a href="coreint.html">homepage </a>
 
 
 
@@ -21,6 +21,5 @@ something about my improvements - survival - with learning code. <br>
 <br>
 <br>
 <br>
-<a href="homepage.html">homepage </a>
 
 
