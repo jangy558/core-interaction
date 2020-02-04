@@ -1,0 +1,81 @@
+
+
+@charset "utf-8";
+.top{
+	margin:0 auto;
+	padding-left:100px;
+	background-color: black;
+	display:block;
+	color:white;
+}
+.top h1{
+	font-size: 50px;
+}
+
+.mid{
+	border:5px solid grey;
+    height:400px; 
+    width:1000px; 
+    margin:0 auto;
+    
+    text-align: center;
+    color:grey;
+    
+    background:#E2E1E1;
+}
+.left{
+	border: 5px solid black;
+	width:200px;
+	margin: 160px 10px;
+    text-align: left;
+    color:black;
+    
+    background:#A68181;
+
+
+}
+.side{
+	text-align: right;
+	padding-right: 20px;
+}
+
+.either{
+	text-align: center;
+}
+
+.other{
+	padding-top: 20px ;
+	display: block;
+	border:20px solid #ADC2F4;
+    height:250px; 
+    width:500px; 
+    margin:0 auto;
+    
+    text-align: center;
+    color:black;
+    
+    background:#FEE335;
+}
+
+.eye{
+	padding-top: 50px;
+	text-align: center;
+    color:black;
+    font-size: 20px;
+
+}
+
+.THEY{
+	padding-left: 200px;
+	color:sienna;
+	font-size: 20px;
+}
+.their{
+	color:#738721;
+	font-size: 100px;
+}
+
+.color{
+	
+	font-size:30px;
+}
