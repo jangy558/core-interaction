@@ -30,14 +30,16 @@ body {
     background:#E2E1E1;
 }
 .left{
-	border: 5px solid black;
 	width:200px;
 	margin: 160px 10px;
     text-align: left;
     color:black;
-    
+    padding-left: 40px;
+    padding-top:30px;
     background:#A68181;
 
+
+}
 
 }
 .side{
@@ -85,3 +87,62 @@ body {
 
 	font-size:50px;
 }
+.day{
+	font-size: 30px;
+  	position:absolute;
+  	left:800px;
+}
+.winter{
+	font-size:80px;
+	position: absolute;
+	left:540px;
+	color:#BBE5FA;
+}
+.bed{
+	display:block;
+	border:5px solid #FEE5B3;
+	width: 60px;
+}
+.study{
+	display:block;
+	border:5px solid #BEE5B3;
+	width: 60px;
+}
+.c{
+	color:#9B6E2B;
+}
+.o{
+	color:#6F3030;
+}
+.l{
+	color:#2F5DB9;
+}
+.u{
+	color:#AA62F3;
+}
+.r{
+	color:#F3B962;
+}
+.s{
+	color:#2E7C53;
+}
+.life{
+	position: absolute;
+	left:600px;
+	font-size:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
