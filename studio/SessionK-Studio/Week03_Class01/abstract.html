@@ -1,215 +1,270 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>abstract </title>
-</head>
-<style type="text/css">
-	html, body{
-			height: 100%;
-		}
-		body{ 
-			margin: 0;
-			display: flex;
-			background-color: #D2B5CB;
-			}
-		.one{
-			width:100px;
-			height:170px;
-			float: right;
-			background-color:gold;
-			border:3px solid white ;
+  <head>
+    <title>abstract</title>
+  </head>
+  <style type="text/css">
+                      	html, body{
+                      			height: 100%;
+                      		}
+                      		body{
+                      			margin: 0;
+                      			display: flex;
+                      			background-color: #D2B5CB;
+                      			}
+                      		.one{
+                      			width:600px;
+                      			height:470px;
+                      float: right;
+                      position: relative;
+                      			background-color:gold;
+                      			border:3px solid white ;
+                      			animation: example 4s infinite;
+                      }
 
-		}
-		.two{
-			width:200px;
-			height:170px;
-			position:absolute;
-			top:550px;
-			left:600px;
-			border:3px solid white ;
-			background-color:#F3ABAB;
-		}
-		.three{
-			width:150px;
-			height:170px;
-			position:absolute;
-			background-color:#ABE0F3;
-			border:3px solid white ;
+                      @keyframes example {
+                        0%   {background-color:gold; left:0px; top:0px;}
+                        25%  {background-color:indianred; left:200px; top:0px;}
+                        50%  {background-color:lightblue; left:200px; top:200px;}
+                        75%  {background-color:lightseagreen; left:0px; top:200px;}
+                        100% {background-color:gold; left:0px; top:0px;}
+                      }
 
-		}
-		.four{
-			width:150px;
-			height:170px;
-			position: absolute;
-			top:200px;
-			left:300px;
-			background-color:gold;
-			border:3px solid white ;
-		}
-		.oness{
-			width:100px;
-			height:170px;
-			background-color:gold;
-			position: absolute;
-			left:750px;
-			border:3px solid white ;
+                      		}
+                      		.two{
+                      			width:200px;
+                      			height:170px;
+                      			position:absolute;
+                      			top:550px;
+                      			left:600px;
+                      			border:3px solid white ;
+                      			background-color:#F3ABAB;
+                      		}
+                      		.three{
+                      			width:150px;
+                      			height:170px;
+                      			position:absolute;
+                      			background-color:#ABE0F3;
+                      			border:3px solid white ;
 
-		}
-		.twoss{
-			width:200px;
-			height:170px;
-			position: absolute;
-			top:300px;
-			border:3px solid white ;
-			background-color:#F3ABAB;
-		}
-		.threess{
-			width:150px;
-			height:170px;
-			position: absolute;
-			top:500px;
-			left:400px;
-			background-color:#ABE0F3;
-			border:3px solid white ;
+                      		}
+                      		.four{
+                      			width:150px;
+                      			height:170px;
+                      			position: absolute;
+                      			top:200px;
+                      			left:300px;
+                      			background-color:gold;
+                      			border:3px solid white ;
+                      		}
+                      		.oness{
+                      			width:100px;
+                      			height:170px;
+                      			background-color:gold;
+                      			position: relative;
+                      			left:750px;
+                    		border:3px solid white ;
+                    		animation: example 7s infinite;
 
-		}
-		.fourss{
-			width:150px;
-			height:170px;
-			position:absolute;
-			top:550px;
-			left:100px;
-			background-color:#75C365;
-			border:3px solid white ;
-		}
-		.one{
-			width:100px;
-			height:170px;
-			float: right;
-			background-color:gold;
-			border:3px solid white ;
+                    @keyframes oness {
+                        0%   {background-color:gold; left:0px; top:0px;}
+                        25%  {background-color:indianred; left:500px; top:0px;}
+                        50%  {background-color:lightblue; left:300px; top:500px;}
+                        75%  {background-color:lightseagreen; left:0px; top:500px;}
+                        100% {background-color:gold; left:0px; top:0px;}
+                      }
 
-		}
-		.two{
-			width:200px;
-			height:170px;
-			position:absolute;
-			top:550px;
-			left:600px;
-			border:3px solid white ;
-			background-color:#F3ABAB;
-		}
-		.three{
-			width:150px;
-			height:170px;
-			position:absolute;
-			background-color:#ABE0F3;
-			border:3px solid white ;
+                      		}
+                      		.twoss{
+                      			width:200px;
+                      			height:170px;
+                      			position: absolute;
+                      			top:300px;
+                      			border:3px solid white ;
+                      			background-color:#F3ABAB;
+                      		}
+                      		.threess{
+                      			width:150px;
+                      			height:170px;
+                      			position: absolute;
+                      			top:500px;
+                      			left:400px;
+                      			background-color:#ABE0F3;
+                      			border:3px solid white ;
 
-		}
-		.four{
-			width:150px;
-			height:170px;
-			position: absolute;
-			top:200px;
-			left:300px;
-			background-color:gold;
-			border:3px solid white ;
-		}
-		.ones{
-			width:100px;
-			height:170px;
-			background-color:gold;
-			position: absolute;
-			top:500px;
-			border:3px solid white ;
+                      		}
+                      		.fourss{
+                      			width:150px;
+                      			height:170px;
+                      			position:absolute;
+                      			top:550px;
+                      			left:100px;
+                      			background-color:#75C365;
+                      			border:3px solid white ;
+                      		}
+                      		.one{
+                      			width:100px;
+                      			height:170px;
+                      			float: right;
+                      			background-color:gold;
+                      			border:3px solid white ;
 
-		}
-		.twos{
-			width:200px;
-			height:170px;
-			position: absolute;
-			left:300px;
-			border:3px solid white ;
-			background-color:#F3ABAB;
-		}
-		.threes{
-			width:150px;
-			height:170px;
-			position: absolute;
-			left:500px;
-			top:400px;
-			background-color:#ABE0F3;
-			border:3px solid white ;
+                      		}
+                      		.two{
+                      			width:200px;
+                      			height:170px;
+                      			position:absolute;
+                      			top:550px;
+                      			left:600px;
+                      			border:3px solid white ;
+        						  background-color:#F3ABAB;
+        						  -webkit-animation: spin 4s infinite linear;
+        }
 
-		}
-		.fours{
-			width:150px;
-			height:170px;
-			position:absolute;
-			left:550px;
-			top:100px;
-			background-color:#75C365;
-			border:3px solid white ;
-		}
-		.onesss{
-			width:100px;
-			height:170px;
-			background-color:gold;
-			position: absolute;
-			left:900px;
-			top:50px;
-			border:3px solid white ;
+        @-webkit-keyframes spin {
+            0%  {-webkit-transform: rotate(0deg);}
+            100% {-webkit-transform: rotate(360deg);}
+        }
+                      		}
+                      		.three{
+                      			width:150px;
+                      			height:170px;
+                      			position:absolute;
+                      			background-color:#ABE0F3;
+                      			border:3px solid white ;
 
-		}
-		.twosss{
-			width:200px;
-			height:170px;
-			position: absolute;
-			left:1200px;
-			border:3px solid white ;
-			background-color:#F3ABAB;
-		}
-		.threesss{
-			width:150px;
-			height:170px;
-			position: absolute;
-			top:500px;
-			left:1000px;
-			background-color:#ABE0F3;
-			border:3px solid white ;
+                      		}
+                      		.four{
+                      			width:150px;
+                      			height:170px;
+                      			position: absolute;
+                      			top:200px;
+                      			left:300px;
+                      			background-color:gold;
+                      			border:3px solid white ;
+                      		}
+                      		.ones{
+                      			width:100px;
+                      			height:170px;
+                      			background-color:gold;
+                      			position: absolute;
+                      			top:500px;
+                				border:3px solid white ;
+                				animation: example 3s infinite;
 
-		}
-		.foursss{
-			width:150px;
-			height:170px;
-			position:absolute;
-			top:350px;
-			left:800px;
-			background-color:#75C365;
-			border:3px solid white ;
-</style>
-<body>
-	<div class="one"></div>
-	<div class="two"></div>
-	<div class="three"></div>
-	<div class="four"></div>
-	<div class="ones"></div>
-	<div class="twos"></div>
-	<div class="threes"></div>
-	<div class="fours"></div>
-	<div class="one"></div>
-	<div class="two"></div>
-	<div class="three"></div>
-	<div class="four"></div>
-	<div class="oness"></div>
-	<div class="twoss"></div>
-	<div class="threess"></div>
-	<div class="fourss"></div>
-	<div class="onesss"></div>
-	<div class="twosss"></div>
-	<div class="threesss"></div>
-	<div class="foursss"></div>
+                @keyframes oness {
+                	0%   {background-color:gold; left:600px; top:300px;}
+                	100%  {background-color:lightseagreen; left:0px; top:800px;}
+                  }
 
-</body>
+                      		}
+                      		.twos{
+                      			width:200px;
+                      			height:170px;
+                      			position: absolute;
+                      			left:300px;
+                      			border:3px solid white ;
+                      			background-color:#F3ABAB;
+                      		}
+                      		.threes{
+                      			width:150px;
+                      			height:170px;
+                      			position: absolute;
+                      			left:500px;
+                      			top:400px;
+                      			background-color:#ABE0F3;
+            					  border:3px solid white ;
+            					  -webkit-animation: spin 4s infinite linear;
+            }
+
+            @-webkit-keyframes spin {
+                0%  {-webkit-transform: rotate(0deg);}
+                100% {-webkit-transform: rotate(360deg);}
+            }
+
+                      		}
+                      		.fours{
+                      			width:150px;
+                      			height:170px;
+                      			position:absolute;
+                      			left:550px;
+                      			top:100px;
+                      			background-color:#75C365;
+                      			border:3px solid white ;
+                      		}
+                      		.onesss{
+                      			width:100px;
+                      			height:170px;
+                      			background-color:gold;
+                      			position: absolute;
+                      			left:900px;
+                      			top:50px;
+                      			border:3px solid white ;
+
+                      		}
+                      		.twosss{
+                      			width:200px;
+                      			height:170px;
+                      			position: absolute;
+                      			left:1200px;
+                      			border:3px solid white ;
+    							  background-color:#F3ABAB;
+    							  -webkit-animation: spin 4s infinite linear;
+    }
+
+    @-webkit-keyframes spin {
+        0%  {-webkit-transform: rotate(0deg);}
+        100% {-webkit-transform: rotate(360deg);}
+
+                      		}
+                      		.threesss{
+                      			width:400px;
+                      			height:670px;
+        			  position: relative;
+
+                      			background-color:#ABE0F3;
+                      border:3px solid white ;
+
+                      animation: example 3s infinite;
+
+                    @keyframes oness {
+                        0%   {background-color:gold; left:0px; top:0px;}
+                        25%  {background-color:indianred; left:1200px; top:300px;}
+                        50%  {background-color:lightblue; left:900px; top:900px;}
+                        75%  {background-color:lightseagreen; left:0px; top:800px;}
+                        100% {background-color:gold; left:0px; top:0px;}
+                      }
+
+                      		}
+                      		.foursss{
+                      			width:150px;
+                      			height:170px;
+                      			position:absolute;
+                      			top:350px;
+                      			left:800px;
+                      			background-color:#75C365;
+                      			border:3px solid white ;
+  </style>
+  <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="ones"></div>
+    <div class="twos"></div>
+    <div class="threes"></div>
+    <div class="fours"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="oness"></div>
+    <div class="twoss"></div>
+    <div class="threess"></div>
+    <div class="fourss"></div>
+    <div class="onesss"></div>
+    <div class="twosss"></div>
+    <div class="threesss"></div>
+    <div class="foursss"></div>
+  </body>
 </html>
