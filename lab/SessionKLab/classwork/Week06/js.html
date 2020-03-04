@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      /* .image (); */
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+
+      <button onClick="myFunction()">click me</button>
+    </div>
+
+    <script>
+      //   const $description = document.querySelector(".description");
+      //   console.log($container);
+
+      //   $container.innerHTML = "hi";
+      //   $description.innerHTML = "mouse away from me";
+
+      // this grabs all the items
+
+      // items = ['item1', 'item2', 'item3']
+      // console.log($items[0]);
+      var $items = document.querySelectorAll(".item");
+      //console.log($items.length);
+      //for loop
+      // for (let i = 0; i < $items.length; i++) {
+      //$items[i].innerHTML = "item 🤩";}
+      //forEach array method
+      //   $items.forEach((item,i) => {
+      //     item.innerHTML = "item 🤩";
+      //   });
+
+      //let's add the images
+      $items.forEach((item, i) => {
+        item.innerHTML = `<img src="images/image-${i +
+          1}.jpg" class ="image"/>`;
+      });
+
+      //console.log(Math.random() * $items.length);
+
+      //   const newItems = [
+      //     { title: "title for my first item", source: "image-1.jpg" },
+      //     { title: "title", source: "image-2.jpg" }
+      //   ];
+
+      const randomGenerator = Math.round(Math.random() * $items.length);
+
+      //   $items[0].innerHTML = `
+      //   <img src="images/image-${randomGenerator}.jpg"/>
+
+      //   `;
+
+      function myFunction() {
+        console.log("im clicked!");
+      }
+    </script>
+  </body>
+</html>
