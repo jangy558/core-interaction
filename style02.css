@@ -1,4 +1,4 @@
- body{
+body{
 	border: 6px solid #6D8EE9;
 }
 
@@ -28,6 +28,28 @@ h6{
 }
 body{
 	background-color: #E9E3F2;
+}
+
+.this{
+	margin: 0 auto;
+	position: absolute;
+	left:200px;
+	top:0px;
+	font-size: 40px;
+	font-family:Gill Sans, sans-serif;
+	opacity: .5;
+	color: #5C8ACE;
+}
+
+.hi{
+
+	position: absolute;
+	left:940px;
+	top:300px;
+	font-family:Gill Sans, sans-serif;
+	color:#5C8ACE;
+	font-size: 20px;
+
 }
 
 .studio

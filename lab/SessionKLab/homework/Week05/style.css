@@ -29,9 +29,9 @@ body {
 }
 #box2 {
   background-color: #befaee;
-  animation: box1 4s infinite alternate;
-  width: 100vmin;
-  height: 60vmin;
+  animation: box1 2s infinite alternate;
+  width: 120vmin;
+  height: 30vmin;
   opacity: 0.6;
 }
 @keyframes box1 {
@@ -122,7 +122,7 @@ body {
 
 #box7 {
   background-color: #38c0e9;
-  animation: box6 6s infinite alternate;
+  animation: box6 1s infinite alternate;
   opacity: 0.862;
   width: 35vmin;
   height: 35vmin;
@@ -141,9 +141,9 @@ body {
 
 #box8 {
   background-color: #fcb022;
-  animation: box7 6s infinite alternate;
+  animation: box7 2s infinite alternate;
   opacity: 0.862;
-  padding-right: 40vw;
+  padding-right: 20vw;
   width: 80vmin;
   height: 80vmin;
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap");
+      body {
+        background-color: black;
+        display: flex;
+        animation: grad 6s infinite alternate;
+        font-family: "Reenie Beanie", cursive;
+      }
+      @keyframes grad {
+        from {
+          background-color: black;
+        }
+        to {
+          background-color: whitesmoke;
+        }
+      }
+      .button1 {
+        background-color: #befaee;
+        border-radius: 10px;
+        padding: 15px 32px;
+        text-align: center;
+        color: #f9cd9c;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100px;
+        margin: 4px 2px;
+        cursor: not-allowed;
+        position: relative;
+        /* top: 100px;
+        left: 10%; */
+        animation: slide 9s infinite alternate;
+      }
+      @keyframes slide {
+        to {
+          transform: translate(400px, 600px);
+        }
+      }
+      .button2 {
+        background-color: #f5a9c1;
+        border-radius: 10px;
+        padding: 15px 32px;
+        text-align: center;
+        color: whitesmoke;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 80px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        /* top: 200px;
+        left: 60%; */
+        animation: slide1 11s infinite alternate;
+      }
+      @keyframes slide1 {
+        to {
+          transform: translate(0px, 400px);
+        }
+      }
+      .button3 {
+        background-color: #abb1fd;
+        border-radius: 10px;
+        padding: 15px 32px;
+        text-align: center;
+        color: #ecf69a;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 80px;
+        margin: 4px 2px;
+        cursor: help;
+        position: relative;
+        /* top: 400px;
+        left: 40%; */
+        animation: slide2 8s infinite alternate;
+      }
+      @keyframes slide2 {
+        to {
+          transform: translate(400px, 120px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="archive.html" class="button1">DREAMS! </a>
+
+    <a href="chat.html" class="button2"> CHATS </a>
+
+    <a href="what.html" class="button3">WHAT WAS THAT?</a>
+  </body>
+</html>
