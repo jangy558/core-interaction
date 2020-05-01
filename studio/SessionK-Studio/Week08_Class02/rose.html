@@ -6,27 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
-      img {
-        width: 80rem;
-        height: 87rem;
-        animation: spin 11s infinite alternate;
-      }
-      @keyframes spin {
-        from {
-          transform: rotate(0deg);
+      @media (max-width: 550px) {
+        body {
+          background-image: ;
+        }
+        img {
+          width: 28rem;
+          height: 25rem;
+          animation: spin 11s infinite alternate;
+          display: flex;
+          position: relative;
+        }
+        @keyframes spin {
+          from {
+            transform: rotate(0deg);
+          }
+
+          to {
+            transform: rotate(360deg);
+          }
         }
 
-        to {
-          transform: rotate(360deg);
+        p {
+          position: relative;
+          font-weight: bold;
+          font-size: 5rem;
         }
       }
     </style>
   </head>
   <body>
-    <div>
-      <img src="untitled folder/rose_PNG66991.png" />
-    </div>
-    <div>
+    <div id="phone">
+      <img src="flower/rose_PNG66991.png" />
       <p class="r">
         ROSE
       </p>
@@ -47,5 +58,7 @@
         JOY
       </p>
     </div>
+
+    <div class="laptop"></div>
   </body>
 </html>
